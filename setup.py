@@ -27,7 +27,6 @@ def get_version_data() -> dict:
 
 version_data = get_version_data()
 
-
 setup(
     name="splinter",
     version=version_data['__version__'],
